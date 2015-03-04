@@ -1,3 +1,9 @@
+
+---
+declared-services:
+  concept-expansion-service:
+    label: concept_expansion
+    plan: concept_expansion_free_plan
 applications:
 - services:
   - concept-expansion-service
