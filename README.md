@@ -2,6 +2,10 @@
 
   The IBM Watson [Concept Expansion][service_url] service analyzes text and interprets its meaning based on usage in other similar contexts. For example, it could interpret 'The Big Apple' as meaning 'New York City'. It can be used to create a dictionary of related words and concepts so that euphemisms, colloquialisms, or otherwise unclear phrases can be better understood and analyzed.
 
+Give it a try! Click the button below to fork into IBM DevOps Services and deploy your own copy of this application on Bluemix.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=https://github.com/watson-developer-cloud/concept-expansion-nodejs.git)
+
 ## Getting Started
 
 1. Create a Bluemix Account
