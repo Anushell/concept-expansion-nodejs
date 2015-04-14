@@ -28,9 +28,9 @@ require('./config/express')(app);
 // if bluemix credentials exists, then override local
 var credentials = extend({
   version: 'v1', // API version
-  url: '<url>',
-  username: '<username>',
-  password: '<password>'
+  url: 'https://gateway.watsonplatform.net/concept-expansion-beta/api',
+  username: 'b16ff7a7-7ad8-4820-a47b-90887747d55b',
+  password: '2V6ygJK0SG7B'
 }, bluemix.getServiceCreds('concept_expansion')); // VCAP_SERVICES
 
 // Create the service wrapper
